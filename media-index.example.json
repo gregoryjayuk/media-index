@@ -1,0 +1,39 @@
+{
+  "skip_paths": [
+    "/home/me/.cache",
+    "/home/me/.local",
+    "/mnt/media2/Backup/old-sync"
+  ],
+  "collection_reports": [
+    {
+      "file": "03-collections.md",
+      "title": "Collections — ebooks, lectures, audiobooks",
+      "sections": [
+        {
+          "title": "Ebooks",
+          "prefixes": ["/mnt/archive/Ebooks/", "/mnt/media2/Ebooks/"],
+          "note": "_archive is the original; media2 holds an older copy._"
+        },
+        {
+          "title": "Lectures",
+          "prefixes": ["/mnt/media1/Lectures/"]
+        },
+        {
+          "title": "Audiobooks",
+          "prefixes": ["/mnt/media1/Audiobooks/"]
+        }
+      ]
+    },
+    {
+      "file": "04-downloads.md",
+      "title": "`/mnt/media1/Downloads` — the unsorted pile",
+      "intro": "**Everything that never got filed.**",
+      "sections": [
+        {
+          "title": "Breakdown by sub-folder",
+          "prefixes": ["/mnt/media1/Downloads/"]
+        }
+      ]
+    }
+  ]
+}

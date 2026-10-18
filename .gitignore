@@ -1,0 +1,19 @@
+# Private data: these list the real files on the indexed drives. Never commit.
+*.log
+reports/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Personal configuration (paths of your own drives). Copy media-index.example.json.
+*.local.json
+
+# Demo output
+demo/out/
+
+__pycache__/
+*.pyc
+.DS_Store
